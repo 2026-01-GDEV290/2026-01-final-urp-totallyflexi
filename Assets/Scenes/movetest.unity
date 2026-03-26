@@ -329,7 +329,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -358,7 +358,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f490e868c5a7cab4c9a8713376c97bac, type: 2}
+  - {fileID: 2100000, guid: 5acf52b1a53759245a8f06dbbaddb6a9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -397,8 +397,8 @@ Transform:
   m_GameObject: {fileID: 111261871}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.30064, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 10.21, y: -3.62, z: -4.27}
+  m_LocalScale: {x: 1, y: 7.9903, z: 12.685}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126255442}
@@ -602,12 +602,13 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"scenePlayer","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"controlMinigameOverlay","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"canTeleport","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"carriedTrash","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"engineHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"controlHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"defenseHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"pipesHealth","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"carriedTrash","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"engineHealth","value":{"$content":30,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"controlHealth","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"defenseHealth","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"pipesHealth","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"minigameComplete","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1478496052}
@@ -687,6 +688,130 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507526277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!1 &554465802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554465803}
+  - component: {fileID: 554465806}
+  - component: {fileID: 554465805}
+  - component: {fileID: 554465804}
+  - component: {fileID: 554465807}
+  m_Layer: 0
+  m_Name: DefenseMinigameTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &554465803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554465802}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.04554, y: -14.46, z: -5.042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2126255442}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &554465804
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554465802}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &554465805
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554465802}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5acf52b1a53759245a8f06dbbaddb6a9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &554465806
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554465802}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &554465807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554465802}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
@@ -993,6 +1118,7 @@ GameObject:
   - component: {fileID: 772598588}
   - component: {fileID: 772598587}
   - component: {fileID: 772598586}
+  - component: {fileID: 772598589}
   m_Layer: 5
   m_Name: DefenseMinigame
   m_TagString: Untagged
@@ -1082,6 +1208,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &772598589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772598584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &812443428 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ac8ba49294679b49bff206e3f5b8473,
@@ -1116,6 +1257,130 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 8ac8ba49294679b49bff206e3f5b8473, type: 3}
+--- !u!1 &829898351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829898352}
+  - component: {fileID: 829898355}
+  - component: {fileID: 829898354}
+  - component: {fileID: 829898353}
+  - component: {fileID: 829898356}
+  m_Layer: 0
+  m_Name: PipeMinigameTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829898352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829898351}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.52806, y: -13.73, z: -5.092842}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2126255442}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &829898353
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829898351}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &829898354
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829898351}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5acf52b1a53759245a8f06dbbaddb6a9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &829898355
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829898351}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &829898356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829898351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &871039739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,8 +2037,9 @@ GameObject:
   - component: {fileID: 1329331884}
   - component: {fileID: 1329331883}
   - component: {fileID: 1329331882}
+  - component: {fileID: 1329331885}
   m_Layer: 5
-  m_Name: ClosetMinigame
+  m_Name: PipesMinigame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1861,6 +2127,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1329331885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329331880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1356957025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,6 +2814,9 @@ GameObject:
   - component: {fileID: 1766430582}
   - component: {fileID: 1766430581}
   - component: {fileID: 1766430580}
+  - component: {fileID: 1766430585}
+  - component: {fileID: 1766430584}
+  - component: {fileID: 1766430583}
   m_Layer: 5
   m_Name: ControlMinigame
   m_TagString: Untagged
@@ -2624,6 +2908,105 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1766430583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766430578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0e9d9e7a3197a4943a750d266a519c1b, type: 2}
+--- !u!114 &1766430584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766430578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1766430585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766430578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_TextComponent: {fileID: 0}
+  m_Placeholder: {fileID: 0}
+  m_ContentType: 0
+  m_InputType: 0
+  m_AsteriskChar: 42
+  m_KeyboardType: 0
+  m_LineType: 0
+  m_HideMobileInput: 0
+  m_CharacterValidation: 0
+  m_CharacterLimit: 0
+  m_OnSubmit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDidEndEdit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_CustomCaretColor: 0
+  m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
+  m_Text: 
+  m_CaretBlinkRate: 0.85
+  m_CaretWidth: 1
+  m_ReadOnly: 0
+  m_ShouldActivateOnSelect: 1
 --- !u!1001 &2012086749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2793,6 +3176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2126255442}
+  - component: {fileID: 2126255443}
   m_Layer: 0
   m_Name: Minigame Triggers
   m_TagString: Untagged
@@ -2815,8 +3199,26 @@ Transform:
   m_Children:
   - {fileID: 111261877}
   - {fileID: 1356957026}
+  - {fileID: 829898352}
+  - {fileID: 554465803}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2126255443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126255441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"minigameComplete","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &8046593377243669857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2839,6 +3241,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"multiPress","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"minigameComplete","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3126808307748747830, guid: 22de75aa311aaa54f9dd0bb49fb13127,
@@ -2894,33 +3297,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 769731744940788042, guid: 22de75aa311aaa54f9dd0bb49fb13127,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8046593377243669859}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22de75aa311aaa54f9dd0bb49fb13127, type: 3}
---- !u!1 &8046593377243669858 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 769731744940788042, guid: 22de75aa311aaa54f9dd0bb49fb13127,
-    type: 3}
-  m_PrefabInstance: {fileID: 8046593377243669857}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8046593377243669859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8046593377243669858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
