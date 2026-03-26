@@ -1,0 +1,16 @@
+# Made in Blockbench 5.1.1
+newmtl m_078859be-9e5b-d240-5b17-840708e5e251
+map_Kd window.png
+newmtl m_e13671d8-550c-dc6f-26b3-5d72468ddd38
+map_Kd texture.png
+newmtl m_520786d7-5a32-e72f-70e4-7a9e6e8536ac
+map_Kd gronk.jpg.png
+newmtl m_73ea1ac2-772f-29ce-1134-bd090ca3f295
+map_Kd shittasticwall.png
+newmtl m_3138c213-dc33-9d5c-9390-e044ee210885
+map_Kd Monitor.png
+newmtl m_0dd1218c-79d6-c9a0-4b0e-686eb19bbf4e
+map_Kd Control Table.png
+newmtl m_c4f76cda-476d-2a67-b7be-f1ecf772343b
+map_Kd keyboard.png
+newmtl none
