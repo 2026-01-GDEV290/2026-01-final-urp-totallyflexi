@@ -398,7 +398,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.21, y: -3.62, z: -4.27}
-  m_LocalScale: {x: 1, y: 7.9903, z: 12.685}
+  m_LocalScale: {x: 1.8916218, y: 7.9903, z: 12.685}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126255442}
@@ -806,7 +806,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"minigameComplete","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ControlMinigame","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ControlInput","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.InputField,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"submarineHealth","value":{"$content":1000,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1478496052}
     - {fileID: 1766430578}
@@ -3768,12 +3769,12 @@ PrefabInstance:
     - target: {fileID: 3126808307748747830, guid: 22de75aa311aaa54f9dd0bb49fb13127,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.33
+      value: 4.158
       objectReference: {fileID: 0}
     - target: {fileID: 3126808307748747830, guid: 22de75aa311aaa54f9dd0bb49fb13127,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 34.53
+      value: 58.55
       objectReference: {fileID: 0}
     - target: {fileID: 3126808307748747830, guid: 22de75aa311aaa54f9dd0bb49fb13127,
         type: 3}
