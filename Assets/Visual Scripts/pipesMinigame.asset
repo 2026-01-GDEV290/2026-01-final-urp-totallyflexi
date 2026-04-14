@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: pipesMinigame
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[],"$version":"A"}}'
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Pipes
+      Minigame","summary":"Handles the playing of the pipes minigame, then sets minigamecompleted","pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-142.0,"y":-71.0},"guid":"3e24ee0e-5a49-4e20-9f4d-a8961e5db053","$version":"A","$type":"Unity.VisualScripting.OnPointerClick"}],"$version":"A"}}'
     _objectReferences: []
