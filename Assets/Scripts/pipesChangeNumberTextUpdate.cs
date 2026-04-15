@@ -3,17 +3,17 @@ using UnityEngine.UI;
 
 public class pipesChangeNumberTextUpdate : MonoBehaviour
 {
-    public Text pipesChangeNumberText;
+    public Text PipesChangeNumberText;
     public int pipesChangeNumber;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        pipesChangeNumberText.text = pipesChangeNumber.ToString();
+        PipesChangeNumberText.text = pipesChangeNumber.ToString();
     }
 }
