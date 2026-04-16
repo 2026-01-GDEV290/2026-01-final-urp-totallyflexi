@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: pipesGoalNumberTextUpdate
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Pipes
+      Goal Number Text Update","summary":"Updates the displayed goal number every
+      frame","pan":{"x":0.0,"y":110.9519},"zoom":1.0,"elements":[{"coroutine":true,"defaultValues":{},"position":{"x":-460.0,"y":-206.0},"guid":"8f811b62-b83a-43da-a6e4-75304c1920f7","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"pipesGoalNumber","$type":"System.String"}},"position":{"x":-470.0,"y":30.0},"guid":"b7c7c1fc-dce9-4d58-ac8b-0cb98a3bcd19","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"chainable":false,"parameterNames":[],"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":-257.0,"y":-66.0},"guid":"8905c7fe-8fc7-4971-9917-b4dc9b4a94fd","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":-135.0,"y":-216.0},"guid":"a37fdacc-2676-45fd-aa18-e1d08b8f231b","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"6fc9eb9b-a85c-4390-8479-385215c1e0d7","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"ebd858ce-c1a6-47cf-b438-50e4c60fb0d3","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"result","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"417199d7-20ad-4ed9-8c2d-28cb2ae58ce0","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

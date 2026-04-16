@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: pipesChangeNumberPolarityTextUpdate
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Pipes
+      Change Number Polarity Text Update","summary":"Updates the displayed polarity
+      of the change number every frame","pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":true,"defaultValues":{},"position":{"x":-389.0,"y":-253.0},"guid":"cb366d57-bcd1-44c6-8f84-923a5f3a5d1d","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"defaultValues":{},"position":{"x":-70.0,"y":-192.0},"guid":"e4d0987d-5cdb-4c08-9dcc-466c728880d3","$version":"A","$type":"Unity.VisualScripting.If","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"pipesChangeNumberPolarity","$type":"System.String"}},"position":{"x":-458.0,"y":-6.0},"guid":"ed34458d-ea23-4375-b298-2a03e730be55","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"+","$type":"System.String"}},"position":{"x":161.0,"y":-167.0},"guid":"3384dd8c-f785-434b-aa0a-7e305fe92b50","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"pipesChangeNumberPolarityText","$type":"System.String"}},"position":{"x":-184.0,"y":158.0},"guid":"809385d0-abde-4be5-9a48-c194c27c18ec","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"-","$type":"System.String"}},"position":{"x":211.0,"y":-26.0},"guid":"370b2da2-a115-4c5b-a79e-50ec0e519057","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"af5eb193-4011-4699-9914-0edc28372346","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"efacd86c-bca6-45b9-ab0b-f68c00944457","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"20"},"destinationKey":"assign","guid":"7a76cf81-54dc-4a5e-b242-f6a6b683c5e2","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"condition","guid":"a534ebbf-f69d-4736-9a7d-c4c5401963e6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"target","guid":"327e729a-5589-4022-9396-60f60c0d9660","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"b65af4da-aa5a-4899-a11c-128314aad9dd","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
