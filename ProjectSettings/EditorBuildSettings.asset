@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ExportEnvironment.unity
     guid: 28b83f370aaa8cc48aa82ac5e9238da2
+  - enabled: 1
+    path: Assets/Scenes/YouAreDeadDeadDead.unity
+    guid: 7390874780816174eb2c210e15150472
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
